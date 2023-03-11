@@ -1,0 +1,10 @@
+*chmod r = 4 | w = 2 | x = 1*
+*chmod -R ugo+x . adding x to all directories in the current directory*
+*chown -h owner newowner symfile*
+*chmod --reference=reffile newmodfile*
+*chown refowner newowner*
+*chown :grpown :newgroupown*
+*chown owner:group nown:ngrp*
+*sudo : change a temporary the user*
+*chown --type=owner(alpha) newowner change owner if it correspond to the owner(alpha)
+
